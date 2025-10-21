@@ -15,4 +15,12 @@ void UGRAPHinsertEdge(Graph &G, vert v, vert w) {
     GRAPHinsertArc(G, w, v); 
 }
 
-S
+int main() {
+    Graph G(4);
+    UGRAPHinsertEdge(G, 0, 1);
+    UGRAPHinsertEdge(G, 0, 2);
+    UGRAPHinsertEdge(G, 1, 3);
+    GRAPHshow(G);
+    return 0;
+}
+
